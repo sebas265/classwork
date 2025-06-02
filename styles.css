@@ -1,0 +1,20 @@
+body {
+    background-color: #f6b15d;
+}
+h1 {
+    color: red;
+}
+.image1 {
+    border: solid 5px black;
+}
+.image2 {
+    border: solid 10px yellow;
+}
+h2 {
+    font-size: 30pt;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif
+}
+.yt {
+    text-decoration: underline;
+}
