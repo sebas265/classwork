@@ -1,11 +1,107 @@
-body {
-    background-color: #f6b15d;
-    margin: 0px;
+/* theme colours */
+:root {
+    --mint-green: hsla(166, 100%, 93%, 1);
+    --steel-blue: hsla(205, 55%, 46%, 1);
+    --sandy-brown: hsla(24, 95%, 74%, 1);
+    --raspberry-rose: hsla(341, 43%, 47%, 1);
+    --murrey: hsla(325, 72%, 31%, 1);
+    --grey: hsl(0, 0%, 51%);
+    --lightgrey: hsl(0, 0%, 90%);
+    --darkgrey: hsl(0, 0%, 20%);
+    --translucent-dark: hsla(0, 0%, 20%, 0.6);
 }
+
+body {
+    background-color: var(--mint-green);
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
 .logo {
     width: 100px;
     display: block;
 }
+
 .header {
-    background-color: #f4f959;
+    background-color: var(--murrey);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-nav a {
+    color: var(--lightgrey);
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.right-nav a:hover {
+    color: var(--sandy-brown);
+}
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    gap: 30px;
+}
+#search-form {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    max-width: 500px;
+}
+#search-form input {
+    padding: 0.6em;
+    border: 2px solid transparent;
+    border-radius: 10px 0px 0px 10px;
+    flex: 1;
+}
+#search-form button {
+    padding: 0.6em;
+    border: 2px solid transparent;
+    border-radius: 0px 10px 10px 0px;
+    background-color: var(--raspberry-rose);
+    color: var(--lightgrey);
+}
+.product-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%;
+    /* justify-content: center; */
+}
+.product-nav a {
+    color: var(--lightgrey);
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 1em;
+}
+.home-banner {
+    background-color: var(--steel-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-image: url("dinoball.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-text {
+    background-color: var(--translucent-dark);
+    padding: 1em;
+    color: var(--mint-green);
+    text-align: center;
+}
+.banner-text h2 {
+    font-size: 4em;
+}
+.banner-text a {
+    background-color: var(--murrey);
+    color: var(--lightgrey);
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+    padding: 0.5em;
+    text-align: center;
 }
