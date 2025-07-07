@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-    width: 100px;
+    width: 80px;
     display: block;
 }
 
@@ -34,6 +34,7 @@ body {
     color: var(--lightgrey);
     font-size: 1.2em;
     text-decoration: none;
+    padding: 0.5em;
 }
 .right-nav a:hover {
     color: var(--sandy-brown);
@@ -42,6 +43,7 @@ body {
     display: flex;
     flex-direction: row;
     margin-right: 30px;
+    margin-left: auto;
     gap: 30px;
 }
 #search-form {
@@ -49,6 +51,7 @@ body {
     flex-direction: row;
     flex: 1;
     max-width: 500px;
+    margin-right: 30px;
 }
 #search-form input {
     padding: 0.6em;
@@ -65,10 +68,14 @@ body {
 }
 .product-nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     min-width: 100%;
-    /* justify-content: center; */
+    max-height: 0px;
+    overflow: hidden;
+}
+.product-nav.open {
+    max-height: 50vh;
 }
 .product-nav a {
     color: var(--lightgrey);
@@ -89,12 +96,12 @@ body {
 }
 .banner-text {
     background-color: var(--translucent-dark);
-    padding: 1em;
+    /* padding: 1em; */
     color: var(--mint-green);
     text-align: center;
 }
 .banner-text h2 {
-    font-size: 4em;
+    font-size: 1.5em;
 }
 .banner-text a {
     background-color: var(--murrey);
@@ -104,4 +111,38 @@ body {
     display: block;
     padding: 0.5em;
     text-align: center;
+}
+.banner-text p {
+    white-space: wrap;
+}
+.nav-button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 2em;
+    color: var(--mint-green);
+}
+/* cards */
+.card img {
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.card-content {
+    padding: 0.5em;
+}
+.card-button {
+    background-color: var(--murrey);
+    color: var(--mint-green);
+    padding: 0.5em;
+    text-decoration: none;
+    display: block;
+    min-width: 100%;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-left: 1em;
+    margin-right: 1em;
 }
