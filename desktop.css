@@ -6,4 +6,20 @@
     .nav-button {
         display: none;
     }
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    .card img {
+        aspect-ratio: 6/4;
+    }
+    .bottom-banner {
+        grid-column: span 3;
+        min-height: 16em;
+    }
+    .footer-nav {
+        margin-left: 10em;
+        margin-right: 10em;
+    }
 }

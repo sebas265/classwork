@@ -127,6 +127,9 @@ body {
     aspect-ratio: 1/1;
     object-fit: cover;
 }
+.price::before {
+    content: "$";
+}
 .card-content {
     padding: 0.5em;
 }
@@ -145,4 +148,40 @@ body {
     gap: 20px;
     margin-left: 1em;
     margin-right: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
+.bottom-banner {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--raspberry-rose);
+    padding: 1em;
+    background-image: linear-gradient(45deg,var(--steel-blue),var(--murrey));
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav a {
+    padding: 1em;
+    text-decoration: none;
+    color: var(--lightgrey);
+}
+.main-footer {
+    background-color: var(--murrey);
+}
+.social-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.social-nav a {
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: var(--mint-green);
+    text-decoration: none;
+}
+
+
