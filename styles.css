@@ -94,6 +94,17 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+.women-banner {
+    background-color: var(--steel-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-image: url("banner-images/women-soccer.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .banner-text {
     background-color: var(--translucent-dark);
     /* padding: 1em; */
