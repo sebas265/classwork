@@ -10,6 +10,14 @@ function onLoad() {
             nav.classList.add('open')
         }
     } )
+    // search form
+    const search = document.querySelector("#search-form")
+    search.addEventListener('submit', function(event) {
+        const data = new FormData(event.target)
+        if( ! data.get("query") ) {
+            alert("type a search query")
+        }
+    })
 }
 
 window.addEventListener('load', onLoad )
