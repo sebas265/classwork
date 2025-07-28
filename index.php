@@ -1,57 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>Home Page</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta charset="utf-8">
-    <link rel="icon" href="logo.jfif.png">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="desktop.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="main.js"></script>
-</head>
+<?php include "includes/head.php"; ?>
 
 <body>
-    <header class="header">
-        <button class="nav-button">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-        <a href="/">
-            <img src="PGH.png" class="logo">
-        </a>
-        <form id="search-form">
-            <input type="search" name="query" placeholder="search for a product">
-            <button type="submit">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <span class="sr-only">Search</span>
-            </button>
-        </form>
-        <nav class="right-nav">
-            <a href="account.html">
-                <i class="fa-solid fa-user"></i>
-                <span class="sr-only">User Account</span>
-            </a>
-            <a href="wishlist.html">
-                <i class="fa-solid fa-heart"></i>
-                <span class="sr-only">User Wishlist</span>
-            </a>
-            <a href="cart.html">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span class="sr-only">Shopping Cart</span>
-            </a>
-        </nav>
-        <nav class="product-nav">
-            <a href="men.html">Men</a>
-            <a href="women.html">Women</a>
-            <a href="kids.html">Kids</a>
-            <a href="accessories.html">Accessories</a>
-        </nav>
-    </header>
+    <?php include "includes/pageheader.php" ?>
     <div class="home-banner">
         <div class="banner-text">
             <h2>SALE</h2>
@@ -128,25 +81,7 @@
             </div>
         </div>
     </main>
-    <footer class="main-footer">
-        <nav class="footer-nav">
-            <a href="about.html">About us</a>
-            <a href="customer.html">Customer Service</a>
-            <a href="policies.html">Policies</a>
-        </nav>
-        <nav class="social-nav">
-            <a href="https://facebook.com">
-                <i class="fa-brands fa-square-facebook"></i>
-            </a>
-             <a href="https://instagram.com">
-                <i class="fa-brands fa-square-instagram"></i>
-            </a>
-            <a href="https://youtube.com">
-                <i class="fa-brands fa-square-youtube"></i>
-            </a>
-        </nav>
-    </footer>
-
+    <?php include "includes/footer.php"; ?>
 </body>
 
 </html>
