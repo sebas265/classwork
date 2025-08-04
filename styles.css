@@ -116,6 +116,17 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+.men-banner {
+    background-color: var(--steel-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-image: url("banner-images/men-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .banner-text {
     background-color: var(--translucent-dark);
@@ -229,4 +240,24 @@ body {
     width: 1px;
     height: 1px;
     overflow: hidden;
+}
+
+#contact-form label{
+    display: block;
+}
+#contact-form input, #contact-form textarea {
+    display: block;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    width:100%;
+    border: solid 1px #5b5b5b;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+}
+#contact-form {
+    grid-column-start: 2;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
 }
