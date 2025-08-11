@@ -1,9 +1,10 @@
 <?php
 include "src/database.php";
 // if request method is post, a form is being submitted
+
 $submitting = false;
-if( $_SERVER["REQUEST_METHOD"] = "POST" ) {
-    // process post data
+if( $_SERVER["REQUEST_METHOD"] == "POST" ) {
+    //process post data
     $name = $_POST["name"];
     $email = $_POST["email"];
     $subject = $_POST["subject"];
