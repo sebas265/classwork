@@ -4,7 +4,7 @@
 include "src/database.php"; 
 $query = "SELECT id,name,price,description,image FROM Product WHERE category = 'men'";
 // prepare statement
-$statement = $connection -> prepare($query);
+$statement = $conn -> prepare($query);
 $statement -> execute();
 $result = $statement -> get_result();
 // store product in an array
