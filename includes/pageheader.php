@@ -13,15 +13,8 @@
             </button>
         </form>
         <nav class="right-nav">
-            <a href="account.html">
-                <i class="fa-solid fa-user"></i>
-                <span class="sr-only">User Account</span>
-            </a>
-            <a href="wishlist.html">
-                <i class="fa-solid fa-heart"></i>
-                <span class="sr-only">User Wishlist</span>
-            </a>
-            <a href="cart.html">
+            
+            <a href="order.php">
                 <i class="fa-solid fa-cart-shopping"></i>
                 <span class="sr-only">Shopping Cart</span>
             </a>
@@ -29,7 +22,11 @@
         <nav class="product-nav">
             <a href="men.php">Men</a>
             <a href="women.php">Women</a>
-            <a href="kids.php">Kids</a>
-            <a href="accessories.html">Accessories</a>
+            <a href="Equipment.php">Equipment</a>
+            <a href="AS.php">About Us</a>
+            <a href="Blog.php">Blog</a>
+  
+
+
         </nav>
     </header>

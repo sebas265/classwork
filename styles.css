@@ -1,14 +1,15 @@
 /* theme colours */
 :root {
-    --mint-green: hsla(166, 100%, 93%, 1);
-    --steel-blue: hsla(205, 55%, 46%, 1);
-    --sandy-brown: hsla(24, 95%, 74%, 1);
-    --raspberry-rose: hsla(341, 43%, 47%, 1);
-    --murrey: hsla(325, 72%, 31%, 1);
+    --mint-green: hsla(226, 100%, 97%, 1);
+    --steel-blue: hsla(209, 100%, 30%, 1);
+    --sandy-brown: hsla(17, 83%, 54%, 1);
+    --raspberry-rose: hsla(17, 83%, 54%, 1);
+    --murrey: hsla(89, 67%, 20%, 1);
     --grey: hsl(0, 0%, 51%);
     --lightgrey: hsl(0, 0%, 90%);
     --darkgrey: hsl(0, 0%, 20%);
     --translucent-dark: hsla(0, 0%, 20%, 0.6);
+  
 }
 
 body {

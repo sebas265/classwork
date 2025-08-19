@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `Product` (
-  `id` int(11) NOT NULL,
+  `id` int(16) NOT NULL,
   `name` varchar(64) DEFAULT NULL,
   `price` decimal(7,2) DEFAULT NULL,
   `description` varchar(256) DEFAULT NULL,
@@ -41,18 +41,40 @@ CREATE TABLE `Product` (
 --
 
 INSERT INTO `Product` (`id`, `name`, `price`, `description`, `image`, `category`) VALUES
-(1, 'Product 1', 99.98, 'This is description for product 1', 'product1.jpg', 'men'),
-(2, 'Product 2', 128.99, 'This is description for product 2', 'product2.jpg', 'women'),
-(3, 'Product 3', 139.49, 'This is description for product 3', 'product3.jpg', 'children'),
-(4, 'Product 4', 69.98, 'This is description for product 4', 'product4.jpg', 'men'),
-(5, 'Product 5', 149.98, 'This is description for product 5', 'product5.jpg', 'women'),
-(6, 'Product 6', 99.98, 'This is description for product 6', 'product6.jpg', 'children'),
-(7, 'Product 7', 128.99, 'This is description for product 7', 'product7.jpg', 'men'),
-(8, 'Product 8', 139.49, 'This is description for product 8', 'product8.jpg', 'women'),
-(9, 'Product 9', 69.98, 'This is description for product 9', 'product9.jpg', 'children'),
-(10, 'Product 10', 149.98, 'This is description for product 10', 'product10.jpg', 'men'),
-(11, 'Product 11', 69.98, 'This is description for product 11', 'product11.jpg', 'women'),
-(12, 'Product 12', 149.98, 'This is description for product 12', 'product12.jpg', 'children');
+(1, 'Men’s Hiking Fleece', 29.98, 'Men’s Hiking Fleece', 'p1.avif', 'men'),
+
+(2, 'Mens Fitness T-Shirt', 8.99, 'Mens Fitness T-Shirt - Grey', 'p2.avif', 'men'),
+
+(3, 'Mens Travel Trekking Cargo Trousers', 51.49, 'Mens Travel Trekking Cargo Trousers - TRAVEL Grey', 'p3.avif', 'men'),
+
+(4, 'Mens Fitness Jogging Bottoms', 16.98, 'Mens Fitness Jogging Bottoms - Blue/Black', 'p4.avif', 'men'),
+
+(5, 'LEGGINGS UV SURF', 149.98, 'LEGGINGS UV SURF 100 WOMEN BLACK', 'p5.avif', 'women'),
+
+(6, 'Kiprun Cushion Womens Running Shoes', 99.98, 'Kiprun Cushion Womens Running Shoes - White', 'p6.avif', 'women'),
+
+(7, 'Adult Tactile Running Gloves', 28.99, 'Adult Tactile Running Gloves-Kiprun Warm v2-Black', 'p7.avif', 'women'),
+
+(8, 'Womens warm running leggings', 139.49, 'Womens warm running leggings-KIPRUN RUN Warm-Abyss blue', 'p8.avif', 'women'),
+
+(9, 'Womens Hiking Fleece', 20.98, 'Women’s Hiking Fleece', 'p9.avif', 'women'),
+
+(10, 'WOMENS SHORT-SLEEVED SD TRIATHLON TRISUIT', 70.98, 'WOMENS SHORT-SLEEVED SD TRIATHLON TRISUIT - NAVY', 'p10.avif', 'women'),
+
+(11, 'Womens Long Waterproof Hiking Jacket', 69.98, 'Womens Long Waterproof Hiking Jacket - Raincut Long', 'p11.avif', 'women'),
+
+(12, 'Archery Set Soft Archery 100', 29.98, 'TArchery Set Soft Archery 100', 'p12.avif', 'Equipment');
+
+(13, 'BADMINTON ADULT RACKET ', 69.98, 'BADMINTON ADULT RACKET BR LITE 900 SET WHITE BORDEAUX', 'p13.avif', 'Equipment');
+
+(14, 'Pop Up Camping Tent 2 Person', 149.98, 'Pop Up Camping Tent 2 Person', 'p14.avif', 'Equipment');
+
+(15, 'Adult Diving Snorkelling Kit', 49.98, 'Adult Diving Snorkelling Kit - Mask and Snorkel Pink Grey', 'p15.avif', 'Equipment');
+
+(16, 'Skipping Rope Foam', 9.98, 'Skipping Rope Foam', 'p16.avif', 'Equipment');
+
+
+
 
 --
 -- Indexes for dumped tables

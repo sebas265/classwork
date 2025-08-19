@@ -14,27 +14,27 @@
     </div>
     <main class="container">
         <div class="card">
-            <img src="products/pexels-cottonbro-3927387.jpg" alt="sports watch with accessories">
+            <img src="products2/p14.jpeg" alt="sports watch with accessories">
             <div class="card-content">
                 <h4 class="card-title">Product 1</h4>
-                <p class="price">199</p>
+                <p class="price">159</p>
                 <a href="#" class="card-button">
                     Add to cart
                 </a>
             </div>
         </div>
         <div class="card">
-            <img src="products/pexels-kowalievska-1040424.jpg" alt="a woman wearing a black hoodie">
+            <img src="products2/p13.jpeg" alt="a woman wearing a black hoodie">
             <div class="card-content">
                 <h4 class="card-title">Product 2</h4>
-                <p class="price">299</p>
+                <p class="price">99</p>
                 <a href="#" class="card-button">
                     Add to cart
                 </a>
             </div>
         </div>
         <div class="card">
-            <img src="products/pexels-mastercowley-1199607.jpg" alt="women doing push ups on the beach">
+            <img src="products2/p3.jpg" alt="women doing push ups on the beach">
             <div class="card-content">
                 <h4 class="card-title">Product 3</h4>
                 <p class="price">99</p>
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="products/pexels-ollivves-1103828.jpg" alt="a guy standing next to tennis net">
+            <img src="products2/p2.jpg" alt="a guy standing next to tennis net">
             <div class="card-content">
                 <h4 class="card-title">Product 4</h4>
                 <p class="price">199</p>
@@ -54,20 +54,20 @@
             </div>
         </div>
         <div class="card">
-            <img src="products/pexels-olly-3768901.jpg" alt="a guy doing push ups in a park">
+            <img src="products2/p9.jpg" alt="a guy doing push ups in a park">
             <div class="card-content">
                 <h4 class="card-title">Product 5</h4>
-                <p class="price">199</p>
+                <p class="price">59.25</p>
                 <a href="#" class="card-button">
                     Add to cart
                 </a>
             </div>
         </div>
         <div class="card">
-            <img src="products/pexels-olly-869243.jpg" alt="women in fitness gym">
+            <img src="products2/p2.jpg" alt="women in fitness gym">
             <div class="card-content">
                 <h4 class="card-title">Product 6</h4>
-                <p class="price">199</p>
+                <p class="price">20.99</p>
                 <a href="#" class="card-button">
                     Add to cart
                 </a>

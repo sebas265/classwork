@@ -2,7 +2,7 @@
 <html lang="en">
 <?php 
 include "src/database.php"; 
-$query = "SELECT id,name,price,description,image FROM Product WHERE category = 'men'";
+$query = "SELECT id,name,price,description,image FROM Product WHERE category = 'Equipment'";
 // prepare statement
 $statement = $conn -> prepare($query);
 $statement -> execute();

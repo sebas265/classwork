@@ -36,7 +36,7 @@ while( $row = $result->fetch_assoc() ) {
             // card start
             echo "<div class='card'>";
             // product image
-            echo "<img src='products/$image'>";
+            echo "<img src='products2/$image'>";
             // card content
             echo "<div class='card-content'>";
             echo "<h4 class='card-title'>$name</h4>";
