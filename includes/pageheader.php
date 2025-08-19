@@ -3,7 +3,7 @@
             <i class="fa-solid fa-bars"></i>
         </button>
         <a href="/">
-            <img src="PGH.png" class="logo">
+            <img src="Logo.png" class="logo">
         </a>
         <form id="search-form">
             <input type="search" name="query" placeholder="search for a product">

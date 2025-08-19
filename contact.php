@@ -16,7 +16,7 @@ if( $_SERVER["REQUEST_METHOD"] == "POST" ) {
     (name,email,subject,message,submitted_at)
     VALUES(?,?,?,?,?)";
 
-    $statement = $connection -> prepare($query);
+    $statement = $conn -> prepare($query);
     $statement -> bind_param("sssss",$name,$email,$subject,$message,$date);
     $statement -> execute();
     $submitting = true;

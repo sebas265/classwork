@@ -11,7 +11,11 @@
     --translucent-dark: hsla(0, 0%, 20%, 0.6);
   
 }
-
+#search-form {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  margin-top: 20px;        /* space from the top */
+}
 body {
     background-color: var(--mint-green);
     margin: 0px;
@@ -19,7 +23,7 @@ body {
 }
 
 .logo {
-    width: 80px;
+    width: 220px;
     display: block;
 }
 
@@ -100,7 +104,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 50vh;
-    background-image: url("dinoball.jpg");
+    background-image: url("products2/sp.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,7 +116,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 50vh;
-    background-image: url("banner-images/women-soccer.jfif");
+    background-image: url("products2/w.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

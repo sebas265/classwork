@@ -2,7 +2,7 @@
     <title>Home Page</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="utf-8">
-    <link rel="icon" href="logo.jfif.png">
+    <link rel="icon" href="Logo.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="desktop.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
